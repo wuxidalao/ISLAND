@@ -17,6 +17,7 @@ router.get("/latest", new Auth().m, async (ctx, next) => {
   });
 
   const art = await Art.getData(flow.art_id, flow.type);
+  
   //Sequelize模型的序列化
   const likeLatest = await Favor.userLikeIt(
     flow.art_id,
