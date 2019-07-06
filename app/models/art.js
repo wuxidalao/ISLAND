@@ -103,6 +103,11 @@ class Art {
       default:
         break;
     }
+    // if(art && art.image){
+    //   let imgUrl = art.dataValues.image
+    //   art.dataValues.image = global.config.host + imgUrl
+    //   //拼接服务器地址+img地址
+    // }
     return art
   }
 }

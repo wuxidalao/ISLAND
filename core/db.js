@@ -48,6 +48,17 @@ Model.prototype.toJSON = function(){
   unset(data,'updated_at')//删除不想要的json字段
   unset(data,'created_at')
   unset(data,'deleted_at')
+
+  for (key in data){
+    // 服务器的图片路径加载方法
+    if(key === 'image'){
+      if(!data[key].startsWith('http'))
+      //判断图片路径是否以http开头
+      data[key] = global.config.host + data[key]
+      //如果不是就加上服务器地址
+    }
+  }
+
   if(isArray(this.exclude)){
     this.exclude.forEach(
       (value)=>{
