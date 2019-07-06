@@ -91,18 +91,19 @@ class Favor extends Model {
     return await Art.getList(arts)
   }
 
-  static async getBookFavor(uid,bookId){
-    const favorNums = await Favor.count({//count()统计查询结果数
+  static async getBookFavor(uid,bookID){
+    const favorNums = await Favor.count({
+      //count()统计查询结果数
       //这本书籍点赞数量
       where:{
-        art_id:bookId,
+        art_id:bookID,
         type:400
       }
     })
     const myFavor = await Favor.count({
       //我是否对这本书籍点赞
       where:{
-        art_id:bookId,
+        art_id:bookID,
         uid,
         type:400
       }
