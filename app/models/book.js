@@ -38,10 +38,10 @@ Book.init({
     type:Sequelize.INTEGER,
     primaryKey:true
   },
-  fav_nums:{
-    type:Sequelize.INTEGER,
-    defaultValue:0
-  }
+  fav_nums: {
+    type: Sequelize.INTEGER,
+    defaultValue: 0
+}
 },{
   sequelize,
   tableName:'book'

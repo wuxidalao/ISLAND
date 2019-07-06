@@ -29,7 +29,7 @@ router.get('/search',async ctx =>{
   ctx.body = result
 })
 
-//我点过赞的内容
+//书籍点赞数量
 router.get('/favor/count', new Auth().m, async ctx =>{
   const count = await Book.getMyFavorBookCount(ctx.auth.uid)
     ctx.body = {
@@ -37,7 +37,7 @@ router.get('/favor/count', new Auth().m, async ctx =>{
     }
 })
 
-//点赞数量
+//每本书籍点赞情况
 router.get('/:book_id/favor', new Auth().m, async ctx =>{
   const v = await new PositiveIntegerValidator().validate(ctx,{
     id:'book_id'

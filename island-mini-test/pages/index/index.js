@@ -219,7 +219,7 @@ Page({
   //获取书籍点赞情况
   onGetBookFavor(){
     wx.request({
-      url: 'http://localhost:3000/v1/book/1120/favor',
+      url: 'http://localhost:3000/v1/book/7/favor',
       method: 'GET',
       success: res => {
         console.log(res.data)
