@@ -9,8 +9,8 @@
 项目使用mysql node koa vue
 
 
-<img class="QR-img" src="https://github.com/wuxidalao/ISLAND/blob/master/island-img/book.jpg" width="150" height="150">
+<img class="QR-img" src="https://github.com/wuxidalao/ISLAND/blob/master/island-img/book.jpg" width="359" height="642">
 
-<img class="QR-img" src="https://github.com/wuxidalao/ISLAND/blob/master/island-img/classic.jpg" width="150" height="150">
+<img class="QR-img" src="https://github.com/wuxidalao/ISLAND/blob/master/island-img/classic.jpg" width="359" height="642">
 
-<img class="QR-img" src="https://github.com/wuxidalao/ISLAND/blob/master/island-img/my.jpg" width="150" height="150">
+<img class="QR-img" src="https://github.com/wuxidalao/ISLAND/blob/master/island-img/my.jpg" width="359" height="642">
