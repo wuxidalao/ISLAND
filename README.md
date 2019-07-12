@@ -19,10 +19,3 @@ npm ren dev
 
 #预览项目
 微信开发者工具打开《island-mini》
-
-#项目图片展示
-<img class="QR-img" src="https://github.com/wuxidalao/ISLAND/blob/master/island-img/book.jpg" width="359" height="642">
-
-<img class="QR-img" src="https://github.com/wuxidalao/ISLAND/blob/master/island-img/classic.jpg" width="359" height="642">
-
-<img class="QR-img" src="https://github.com/wuxidalao/ISLAND/blob/master/island-img/my.jpg" width="359" height="642">
